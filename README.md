@@ -3,8 +3,11 @@
 This is a small program to parse a file that follows this convention:
 
 {title}
+
 {description}
+
 {date}
+
 {content}
 
 I originally used that format for the static site builder (written in Go) I use for my [website](https://michaelspangler.io). As an exercise I wrote this small C program to parse the file into structs.
